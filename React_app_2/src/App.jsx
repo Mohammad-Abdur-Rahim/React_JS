@@ -1,5 +1,6 @@
 
 import './App.css'
+import Counter from './Counter';
 
 function App() {
 function one(){
@@ -15,6 +16,9 @@ function sum (num){
       <button onClick={one}>One</button>
       <button onClick={()=>{  alert("Clicked 2")}}>Two</button>
       <button onClick={()=>sum(3)}>Sum </button>
+
+      <Counter></Counter>
+    
     </>
   )
 }
