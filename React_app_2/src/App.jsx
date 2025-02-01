@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './Counter';
+import Users from './Users';
 
 function App() {
 function one(){
@@ -18,6 +19,7 @@ function sum (num){
       <button onClick={()=>sum(3)}>Sum </button>
 
       <Counter></Counter>
+      <Users></Users>
     
     </>
   )
