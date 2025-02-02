@@ -1,11 +1,12 @@
-
+import Blogs from "./Components/Blogs/Blogs";
+import Header from "./Components/Header";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold">
-        Hello world!
-      </h1>
+    
+      <Header></Header>
+      <Blogs></Blogs>
 
 
     </div>
