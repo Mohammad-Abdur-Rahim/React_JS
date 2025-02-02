@@ -17,7 +17,7 @@ useEffect(()=>{
 
     return (
         <div>
-            <h2 className="text-red-400 font-bold">Blogs is : {blogs.length}</h2>
+            <h2 className="text-red-400 font-bold">Blogs : {blogs.length}</h2>
         </div>
     );
 };
