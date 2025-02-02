@@ -7,9 +7,9 @@ const Countrie = ({countrie}) => {
     const handleVisited =()=>{
         setVisited(!visited);
     }
-
+    visited
     return (
-        <div className='country'>
+        <div className={`country ${visited && 'visited'}`}>
             <h1>{name.common} </h1>
             <img src={flags.png} alt="" />
             <p>Population : {population}</p>

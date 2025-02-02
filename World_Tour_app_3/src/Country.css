@@ -4,4 +4,9 @@
     margin: 15px;
     border-radius: 20px;
 
-};
+}
+.visited {
+    background-color: chocolate;
+    color: white;
+
+}
