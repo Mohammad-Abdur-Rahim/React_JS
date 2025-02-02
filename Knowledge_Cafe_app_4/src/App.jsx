@@ -4,10 +4,10 @@ import Header from "./Components/Header";
 
 const App = () => {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
     
       <Header></Header>
-     <div className="md:flex">
+     <div className="md:flex max">
      <Blogs></Blogs>
      <BookMarks></BookMarks>
      </div>
