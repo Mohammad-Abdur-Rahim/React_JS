@@ -15,12 +15,22 @@ const Countries = () => {
 
 
     return (
+        <div>
+            <h3>Country : {countries.length}</h3>
+          <div>
+          <h5>Visited Country :</h5>
+          <ul>
+            
+          </ul>
+          </div>
+       
         <div className="container">
             {
                 countries.map(c => 
                 <Countrie key={countries.cca3} countrie={c}></Countrie> 
             )
             }
+        </div>
         </div>
     );
 };

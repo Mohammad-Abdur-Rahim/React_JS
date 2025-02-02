@@ -13,8 +13,10 @@ const Countrie = ({countrie}) => {
             <h1>{name.common} </h1>
             <img src={flags.png} alt="" />
             <p>Population : {population}</p>
-            <button onClick={handleVisited}>{visited?'visited':'Going'}</button>
+            <button onClick={handleVisited} style={{ marginRight: "10px" }}>{visited?'visited':'Going'}</button>
             {visited ? 'already visited':'not visited'}
+            <button style={{ marginLeft: "10px" }}>Mark</button>
+
         </div>
     );
 };
