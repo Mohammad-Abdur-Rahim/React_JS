@@ -15,9 +15,11 @@ const App = () => {
   };
 
   const [readTime, setReadTime] = useState(0);
-  const handleReadTime = (time) => {
+  const handleReadTime = (time,id) => {
     setReadTime(readTime + time);
-    // console.log(time);
+    // remove 
+    const remaingBookMarks = bookMarks.filter(bookmark =>bookmark.id !== id);
+    setBookMarks(remaingBookMarks);
 
   };
 
