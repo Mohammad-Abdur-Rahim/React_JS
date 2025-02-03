@@ -28,7 +28,7 @@ const App = () => {
       <Header></Header>
       <div className="md:flex max">
         <Blogs handleAddToBookMark={handleAddToBookMark} handleReadTime={ handleReadTime }></Blogs>
-        <BookMarks bookMarks={bookMarks} ></BookMarks>
+        <BookMarks bookMarks={bookMarks} readTime={readTime} ></BookMarks>
       </div>
 
 
