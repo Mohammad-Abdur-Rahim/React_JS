@@ -10,7 +10,9 @@ const [bookMarks , setBookMarks] =useState([]);
 
 
 const handleAddToBookMark = (blog) => {
-  console.log('Bookmark added:');
+  // console.log(blog);
+  const newBookMarks =[...bookMarks , blog];
+  setBookMarks(newBookMarks);
 };
 
 
@@ -20,7 +22,7 @@ const handleAddToBookMark = (blog) => {
      <Header></Header>
      <div className="md:flex max">
      <Blogs handleAddToBookMark={handleAddToBookMark}></Blogs>
-     <BookMarks ></BookMarks>
+     <BookMarks bookMarks={bookMarks} ></BookMarks>
      </div>
 
 
